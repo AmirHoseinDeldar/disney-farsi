@@ -28,11 +28,11 @@ function MoviesCarousel({ movies, title, isVetical }: Props) {
               >
                 <MovieCard movie={movie} />
                 <div className="max-2-2xl">
-                  <p className="font-bold">
+                  <p className="font-bold mr-3 ">
                     {movie.title} {movie.release_date?.split("-")[0]}
                   </p>
                   <hr className="mb-3" />
-                  <p>{movie.overview}</p>
+                  <p className="mr-3">{movie.overview}</p>
                 </div>
               </div>
             ))
