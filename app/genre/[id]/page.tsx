@@ -9,8 +9,8 @@ type Props = {
 const GenrePage = ({ params: { id }, searchParams: { genre } }: Props) => {
   return (
     <div>
-      page {id}
-      {genre}
+      page ba id:{id}
+      va zhanr{genre}
     </div>
   );
 };

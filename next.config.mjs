@@ -6,6 +6,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "i.postimg.cc",
       },
+      {
+        protocol: "http",
+        hostname: "image.tmdb.org",
+      },
     ],
   },
 };
